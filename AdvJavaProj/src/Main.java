@@ -5,7 +5,19 @@ import java.sql.*;
 public class Main {
 
 	public static void main(String[] args) throws IOException, InterruptedException, SQLException {
-		boolean name;
+		
+		Scanner scanner = new Scanner(System.in);
+		int userInput = 0;
+		String username;
+		String password;
+		System.out.println("Please enter your username: ");
+		username = scanner.next();
+		
+		System.out.println("Please enter your password: ");
+		password = scanner.next();
+		
+		LogCheck.logCheck(username, password);
+		/*boolean name;
 		boolean key;
 		int userInput = 0;
 		Scanner scanner = new Scanner(System.in);
@@ -52,7 +64,7 @@ public class Main {
 		}
 			
 		//displays menu for user selection
-		Menu.userSelect(userInput);
+		Menu.userSelect(userInput);*/
 		scanner.close();
 	}
 }

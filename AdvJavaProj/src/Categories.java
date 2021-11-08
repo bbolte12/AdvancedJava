@@ -112,6 +112,7 @@ public class Categories {
 	public static void sellVeh(int userInput) throws SQLException {	//Sales menu
 		
 		System.out.println("~~~Please enter the requested information~~~");
+		System.out.println("~~~ use a - for spaces~~~");
 		Scanner sc = new Scanner(System.in);
 			
 				String urlConn = "jdbc:mysql://localhost:3306/advjavaproj";

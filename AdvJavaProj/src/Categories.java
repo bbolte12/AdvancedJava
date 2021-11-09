@@ -151,6 +151,6 @@ public class Categories {
 
 		sc.close();
 		}
-	}//Added to repository
+	}
 
 
